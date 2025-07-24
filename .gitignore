@@ -49,6 +49,7 @@ web_modules/
 
 # Optional npm cache directory
 .npm
+.prettierrc
 
 # Optional eslint cache
 .eslintcache
