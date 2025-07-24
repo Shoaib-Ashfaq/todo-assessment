@@ -4,7 +4,14 @@ This project is a full-stack todo application with a React front-end and a Node.
 
 ## Getting Started
 
-To get the application up and running, you will need to set up both the front-end and the back-end services.
+To get the application up and running, you will need to clone the repository and set up both the front-end and the back-end services.
+
+### Clone the Repository
+
+```bash
+git clone git@github.com:Shoaib-Ashfaq/todo-assessment.git
+cd todo-assessment
+```
 
 ### Prerequisites
 
@@ -60,7 +67,19 @@ To get the application up and running, you will need to set up both the front-en
     npm install
     ```
 
-3.  **Start the development server:**
+3.  **Create a `.env` file:**
+    Duplicate the `env.exapmle` file and rename it to `.env`.
+    ```bash
+    cp env.exapmle .env
+    ```
+
+4.  **Configure environment variables:**
+    Open the `.env` file and add the necessary environment variables.
+    ```
+    VITE_BACKEND_URL=<your_backend_url>
+    ```
+
+5.  **Start the development server:**
     ```bash
     npm run dev
     ```
