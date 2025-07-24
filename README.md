@@ -86,3 +86,27 @@ cd todo-assessment
     The front-end application will be running on `http://localhost:5173` by default (check your terminal output for the exact URL).
 
 ---
+
+## Libraries and Packages Used
+
+### Backend
+
+-   **bcryptjs**: For hashing passwords to store them securely.
+-   **cookie-parser**: To parse cookies attached to the client request object.
+-   **cors**: To enable Cross-Origin Resource Sharing, allowing the front-end to communicate with the back-end.
+-   **dotenv**: To load environment variables from a `.env` file.
+-   **express**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+-   **jsonwebtoken**: For creating and verifying JSON Web Tokens (JWT) for authentication.
+-   **mongoose**: An Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
+-   **nodemon**: A tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+### Frontend
+
+-   **@hello-pangea/dnd**: For implementing drag and drop functionality.
+-   **@tailwindcss/vite**: For integrating the Tailwind CSS framework with Vite.
+-   **axios**: A promise-based HTTP client for the browser and node.js, used to make requests to the back-end API.
+-   **lucide-react**: A library of simply designed, beautiful icons.
+-   **react**: A JavaScript library for building user interfaces.
+-   **react-dom**: Serves as the entry point to the DOM and server renderers for React.
+-   **react-router-dom**: For handling routing in the React application.
+-   **tailwindcss**: A utility-first CSS framework for rapidly building custom user interfaces.
